@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fábrica de Música - Crea Música con IA</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo La Fábrica de Música"></a>
+            </div>
+            
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="canal-youtube.html">Canal YouTube</a></li>
+                    <li class="dropdown">
+                        <a href="tutoriales.html">Tutoriales <i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="tutoriales/trucos-suno.html">Trucos Suno AI</a></li>
+                            <li><a href="tutoriales/generacion-imagenes.html">Generación de Imágenes</a></li>
+                            <li><a href="tutoriales/generacion-videos.html">Generación de Videos</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="eventos.html">Eventos <i class="fas fa-caret-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="eventos/mensual.html">Evento Temático Mensual</a></li>
+                            <li><a href="eventos/semanales.html">Eventos Semanales</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="musica.html">Música de la Fábrica</a></li>
+                    <li><a href="contactanos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+
+            <button class="hamburger-menu" id="hamburger-menu" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="hero" class="section-container hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">El Futuro de la Música es Ahora</h1>
+                <p class="hero-subtitle">Únete a la comunidad de creadores que está revolucionando la producción musical con Inteligencia Artificial.</p>
+                <a href="https://discord.gg/TU-ENLACE-DE-DISCORD" target="_blank" class="cta-button primary-cta">
+                    Únete a Discord <i class="fab fa-discord"></i>
+                </a>
+            </div>
+            <div class="hero-image-container">
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2070&auto=format&fit=crop" alt="Visualización de música generada por IA" class="hero-image">
+            </div>
+        </section>
+
+        <section id="eventos" class="section-container">
+            <h2 class="section-title">Compite y Gana en Nuestros Eventos Semanales</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <i class="fas fa-trophy card-icon"></i>
+                    <h3 class="card-title">Elige el Género</h3>
+                    <p class="card-text">Cada semana un género nuevo. El ganador con más vistas en YouTube decide el siguiente desafío musical.</p>
+                    <a href="eventos/semanales.html" class="cta-button secondary-cta">Ver Eventos</a>
+                </div>
+                <div class="card">
+                    <i class="fab fa-youtube card-icon"></i>
+                    <h3 class="card-title">Crece con Nosotros</h3>
+                    <p class="card-text">Publicamos tus creaciones en el canal oficial de la comunidad. ¡Gana visibilidad y compite por premios!</p>
+                    <a href="canal-youtube.html" class="cta-button secondary-cta">Ir al Canal</a>
+                </div>
+                <div class="card">
+                    <i class="fas fa-award card-icon"></i>
+                    <h3 class="card-title">Premios Futuros</h3>
+                    <p class="card-text">Con la monetización del canal, los ganadores recibirán premios como suscripciones a herramientas top de IA.</p>
+                    <a href="quienes-somos.html" class="cta-button secondary-cta">Saber Más</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tutoriales" class="section-container dark-section">
+            <h2 class="section-title">Domina las Herramientas del Futuro</h2>
+            <p class="section-subtitle">Conviértete en un experto con nuestras guías y trucos.</p>
+            <div class="tutorials-grid">
+                <a href="tutoriales/trucos-suno.html" class="tutorial-card">
+                     <img src="images/tutoriales-suno.jpg" alt="Tutorial de Suno AI">
+                    <div class="tutorial-overlay">
+                        <h3>Trucos Suno AI</h3>
+                    </div>
+                </a>
+                <a href="tutoriales/generacion-imagenes.html" class="tutorial-card">
+                     <img src="images/generar-imagenes.jpg" alt="Tutorial de Generación de Imágenes">
+                    <div class="tutorial-overlay">
+                        <h3>Generación de Imágenes</h3>
+                    </div>
+                </a>
+                <a href="tutoriales/generacion-videos.html" class="tutorial-card">
+                    <img src="images/generar-videos.jpg" alt="Tutorial de Generación de Videos">
+                    <div class="tutorial-overlay">
+                        <h3>Generación de Videos</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer-bottom">
+        <div class="footer-container">
+            <div class="footer-about">
+                <img src="images/logo.png" alt="Logo La Fábrica de Música" class="footer-logo">
+                <p>Comunidad dedicada a la creación de música con inteligencia artificial. Fundada en 2024.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="tutoriales.html">Tutoriales</a></li>
+                    <li><a href="politicas.html">Políticas</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Únete a la Conversación</h4>
+                <div class="social-icons">
+                    <a href="https://discord.gg/TU-ENLACE-DE-DISCORD" target="_blank" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 La Fábrica de Música. Diseñado con IA y pasión humana.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

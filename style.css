@@ -9,6 +9,9 @@
     --font-secondary: 'Roboto Mono', monospace; /* Fuente legible para texto */
 }
 
+main {
+    padding-top: 80px; 
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -38,7 +41,165 @@ img {
     height: auto;
     display: block;
 }
+/* --- ESTILOS PARA LA GALERÍA DE MÚSICA CON TABS --- */
 
+.gallery-wrapper {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.tabs-container {
+    width: 100%;
+    border-bottom: 2px solid #2a2a2a;
+    margin-bottom: 2rem;
+}
+
+.tabs-nav {
+    display: flex;
+    overflow-x: auto; /* ¡Magia! Permite el scroll horizontal */
+    white-space: nowrap; /* Evita que los tabs salten a la siguiente línea */
+    -webkit-overflow-scrolling: touch; /* Scroll suave en iOS */
+    padding-bottom: 10px; /* Espacio para que la barra de scroll no pegue */
+}
+
+/* Ocultar la barra de scroll pero mantener la funcionalidad */
+.tabs-nav::-webkit-scrollbar {
+    display: none;
+}
+.tabs-nav {
+    -ms-overflow-style: none;  /* IE y Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.tab-button {
+    display: inline-block;
+    padding: 12px 25px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--color-text-secondary);
+    font-family: var(--font-primary);
+    font-size: 1.1rem;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.tab-button:hover {
+    color: var(--color-text);
+}
+
+.tab-button.active {
+    color: var(--color-primary);
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -12px; /* Alineado con el borde inferior del contenedor */
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-primary);
+}
+
+.video-container {
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9; /* Mantiene la proporción de video */
+    background-color: var(--color-surface);
+}
+
+.video-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.video-container:hover img {
+    transform: scale(1.05);
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.play-button::after {
+    content: '\f04b'; /* Icono de Play de Font Awesome */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 24px;
+    color: #fff;
+}
+
+.video-container:hover .play-button {
+    background-color: rgba(212, 255, 84, 0.8); /* --color-primary */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+/* --- INICIO DEL NUEVO BLOQUE DE CÓDIGO --- */
+
+/* 1. La nueva regla para la cuadrícula de videos */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem; /* Espacio después de las pestañas */
+}
+
+/* 2. Un 'wrapper' para la tarjeta completa (video + info) */
+.video-wrapper {
+    background-color: var(--color-surface); /* Usa tu variable de color para las tarjetas */
+    border-radius: 8px; /* Mantenemos el borde redondeado */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 3. El contenedor de la información debajo del video */
+.video-info {
+    padding: 12px 15px;
+    background-color: #111; /* Un fondo oscuro para la info */
+}
+
+/* 4. El estilo para el título del video */
+.video-title {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0 0 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Pone '...' si el título es muy largo */
+}
+
+/* 5. El estilo para el nombre del artista */
+.video-artist {
+    font-family: var(--font-secondary);
+    font-size: 0.9em;
+    color: var(--color-primary); /* Lo destacamos con tu color principal */
+    margin: 0;
+}
+
+/* --- FIN DEL NUEVO BLOQUE DE CÓDIGO --- */
 .section-container {
     padding: 5rem 2rem;
     max-width: 1200px;
@@ -335,6 +496,12 @@ img {
     gap: 2rem;
     margin-bottom: 2rem;
 }
+.text-proximamente {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .footer-logo {
     height: 80px;
@@ -450,6 +617,114 @@ img {
     cursor: pointer;
 }
 
+/* --- ESTILOS PARA TARJETA DE ARTISTA HOLOGRÁFICA --- */
+
+.artist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2.5rem;
+    perspective: 1000px; /* Activa la perspectiva 3D para las tarjetas hijas */
+}
+
+.artist-card-holo {
+    background: rgba(26, 26, 26, 0.6); /* Fondo oscuro semi-transparente */
+    border: 1px solid rgba(128, 222, 167, 0.2); /* Borde de neón apagado */
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-text);
+    overflow: hidden; /* Muy importante para los efectos */
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    transform: rotateY(0) rotateX(0); /* Estado inicial para la animación 3D */
+}
+
+.artist-card-holo:hover {
+    transform: scale(1.05) rotateY(-5deg) rotateX(5deg); /* Efecto 3D al pasar el ratón */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    border-color: rgba(128, 222, 167, 0.8); /* Borde de neón encendido */
+}
+
+/* El brillo de neón que se activa con hover */
+.holo-glow-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 0px var(--color-primary);
+    transition: box-shadow 0.4s ease;
+    z-index: -1;
+}
+
+.artist-card-holo:hover .holo-glow-border {
+    box-shadow: 0 0 20px var(--color-primary);
+}
+
+.holo-image-container {
+    position: relative;
+    aspect-ratio: 1 / 1; /* ¡Esta es la línea mágica! */
+}
+
+.holo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 0.8;
+    transition: opacity 0.4s ease;
+}
+
+.artist-card-holo:hover .holo-image {
+    opacity: 1; /* La imagen se vuelve nítida */
+}
+
+/* El efecto de líneas de escaneo sobre la imagen */
+.scanline-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0) 50%,
+        rgba(0, 0, 0, 0.2) 55%,
+        rgba(255, 255, 255, 0.05) 70%
+    );
+    background-size: 100% 4px;
+    animation: scan 10s linear infinite;
+    transition: opacity 0.4s ease;
+}
+
+.artist-card-holo:hover .scanline-overlay {
+    opacity: 0; /* Desaparece al pasar el ratón */
+}
+
+@keyframes scan {
+    from { background-position: 0 0; }
+    to { background-position: 0 -400px; }
+}
+
+.holo-info {
+    padding: 20px;
+    background: linear-gradient(to top, rgba(13, 13, 13, 1), rgba(13, 13, 13, 0.8));
+}
+
+.holo-name {
+    margin: 0 0 10px 0;
+    font-size: 1.4em;
+    color: var(--color-primary);
+    text-shadow: 0 0 5px rgba(128, 222, 167, 0.5); /* Sombra de texto para efecto neón */
+}
+
+.holo-desc {
+    font-size: 0.9em;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
 /* Media Query para Tabletas y Móviles */
 @media (max-width: 992px) {
     .main-nav {
@@ -501,4 +776,15 @@ img {
         flex-direction: column;
         text-align: center;
     }
+
 }
+
+    @media (min-width: 993px){
+        .tabs-nav {
+    display: flex;
+    flex-wrap: wrap;  /* ¡CAMBIADO! Permite que los botones salten de línea */
+    gap: 10px;        /* Añadimos un gap para que haya espacio vertical y horizontal */
+    width: 100%;
+    padding-bottom: 15px; 
+}
+    }

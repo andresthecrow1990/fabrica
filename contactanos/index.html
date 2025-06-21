@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Fábrica de Música - Crea Música con IA</title>
+
+    <link rel="stylesheet" href="../style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <main>
+
+        <section id="contacto" class="section-container">
+            <h2 class="section-title">Hablemos</h2>
+            <p class="section-subtitle">
+                ¿Tienes dudas, sugerencias o quieres colaborar? ¡Envíanos un mensaje!
+            </p>
+
+            <form id="contact-form" action="https://formspree.io/f/TU_ID_UNICO_AQUI" method="POST" class="contact-form">
+
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Tu Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button primary-cta">Enviar Mensaje</button>
+
+            </form>
+        </section>
+        </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="../app.js"></script> <script src="../main.js"></script> </body>
+</html>

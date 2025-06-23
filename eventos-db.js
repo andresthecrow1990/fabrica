@@ -13,7 +13,7 @@ const laFabricaEventos = [
         "genero": "Neo Flamenco",
         "estado": "votacion",
         "ganador": null,
-        "playlistUrl": "#"
+        "playlistUrl": "https://www.youtube.com/watch?v=uUgOv_zGEAU&list=PLJS2jVC4JllCarFZ6SfHHuqEyBFUwRpBH"
     },
       {
         "semana": "Semana 14: 09 Jun - 15 Jun, 2025",

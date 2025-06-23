@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="current-event-week">${evento.semana}</p>
                     <h1 class="current-event-genre">${evento.genero}</h1>
                     <p class="current-event-description">¡El evento de esta semana está activo! Envía tus creaciones del género ${evento.genero} y participa.</p>
-                    <a href="#" class="cta-button primary-cta">Participa en Discord</a>
+                    <a href="https://discord.com/invite/793p6CMpQ2" class="cta-button primary-cta">Participa en Discord</a>
                 </div>
             `;
         }

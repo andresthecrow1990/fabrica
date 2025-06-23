@@ -1,11 +1,11 @@
-// app.js - VERSIÓN FINAL Y UNIFICADA
+// app.js - VERSIÓN FINAL CON PARÁMETROS CORREGIDOS
 
 document.addEventListener("DOMContentLoaded", () => {
     
-    const projectName = "fabrica"; // Nombre de tu proyecto/repositorio
-
+    // Definimos la función con el orden correcto: (selector, url, callback)
     const loadComponent = (selector, fileUrl, callback) => {
-        const fullUrl = `/${projectName}/${fileUrl}`;
+        // La ruta ahora es simple y absoluta desde la raíz.
+        const fullUrl = `/${fileUrl}`; 
         
         fetch(fullUrl)
             .then(response => {
@@ -18,8 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 const element = document.querySelector(selector);
                 if (element) {
                     element.innerHTML = data;
-                    // Si hay una función de 'callback', la ejecutamos AHORA.
+                    // Si hay una función de 'callback' (para el menú), la ejecutamos.
                     if (callback) callback(); 
+                } else {
+                    console.error(`Error: No se encontró el elemento con el selector '${selector}'`);
                 }
             })
             .catch(error => console.error(error));
@@ -38,9 +40,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     };
 
-    // Cargar header y LUEGO activar su funcionalidad
+    // --- ¡AQUÍ ESTÁ LA CORRECCIÓN! ---
+    // Ahora llamamos a la función con los parámetros en el orden correcto:
+    // 1. El selector CSS (dónde va el HTML)
+    // 2. La URL del archivo (qué HTML cargar)
+    // 3. El callback (qué hacer después)
+
     loadComponent("#header-placeholder", "_header.html", activateHamburgerMenu);
-    
-    // Cargar footer (no necesita callback)
     loadComponent("#footer-placeholder", "_footer.html");
 });

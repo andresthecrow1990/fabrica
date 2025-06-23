@@ -460,7 +460,7 @@ const laFabricaVideos = [
         id: 'iiSGZxTNJ8Y',
         categoria: 'Salsa',
         titulo: '"La Vida Es Corta"',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'pal_faFr0oE',
@@ -1079,7 +1079,7 @@ const laFabricaVideos = [
         id: 'Rglx1lmAKQM',
         categoria: 'Swing',
         titulo: 'Swing in My Step',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'SATHPC3QuTk',

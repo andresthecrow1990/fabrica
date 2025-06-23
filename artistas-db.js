@@ -11,7 +11,30 @@ const laFabricaArtistas = [
         nombre: 'AndyCrow',
         imagen: '/fabrica/images/artistas/andy.webp',
         url: '/fabrica/artistas/andycrow/',
-        descripcion: 'Explora el universo sonoro de AndyCrow, un viaje musical único en La Fábrica.'
+        tagline: 'Su enfoque es la música romántica, con un toque clásico.',
+        descripcion: 'Explora el universo sonoro de AndyCrow, un viaje musical retro lleno de sentimientos.',
+
+        biografiaCompleta: 'AndyCrow es un compositor conocido por su habilidad para generar música a partir de sus propios cantos a capella. Miembro fundador de La Fábrica, su trabajo busca resaltar el legado de los artistas de antaño, buscando siempre darles un toque retro o clásico a sus composiciones musicales, destacando entre sus gustos, el bolero, la salsa, y las baladas.',
+
+        cancionDestacadaId: 'SfzLPAIP2RI', // <-- Pega aquí el ID del video de YouTube
+
+        canales: [
+            {
+                plataforma: 'YouTube',
+                nombre_canal: 'Cantándole al amor',
+                url: 'https://www.youtube.com/@Cant%C3%A1ndolealamor'
+            },
+            {
+                plataforma: 'YouTube',
+                nombre_canal: 'Happycitos',
+                url: 'https://www.youtube.com/@Happycitos'
+            },
+            {
+                plataforma: 'Spotify',
+                nombre_canal: 'Cantándole al amor',
+                url: 'https://open.spotify.com/artist/7CVkXqy6pJLL4kVxlE66ya'
+            }
+        ]
     },
     {
         nombre: 'CARONTE',
@@ -65,6 +88,18 @@ const laFabricaArtistas = [
     {
         nombre: 'The ZÁRISTER',
         imagen: '/fabrica/images/artistas/zarister.webp',
+        url: '/fabrica/artistas/the-zarister/',
+        descripcion: 'Explora el universo sonoro de The ZÁRISTER, un viaje musical único en La Fábrica.'
+    },
+    {
+        nombre: 'BALTO',
+        imagen: '/fabrica/images/artistas/balta.jpg',
+        url: '/fabrica/artistas/the-zarister/',
+        descripcion: 'Explora el universo sonoro de The ZÁRISTER, un viaje musical único en La Fábrica.'
+    },
+    {
+        nombre: 'CALLE ARMONÍA 13',
+        imagen: '/fabrica/images/artistas/calle-armonia.jpg',
         url: '/fabrica/artistas/the-zarister/',
         descripcion: 'Explora el universo sonoro de The ZÁRISTER, un viaje musical único en La Fábrica.'
     }

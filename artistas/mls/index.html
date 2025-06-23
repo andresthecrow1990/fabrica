@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Artista - La Fábrica de Música</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/fabrica/style.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <section id="artist-hero" class="artist-hero-section">
+            <div class="artist-hero-container section-container">
+                <img src="" alt="" id="artist-image" class="artist-photo">
+                <div class="artist-details">
+                    <h1 id="artist-name" class="artist-name-main"></h1>
+                    <p id="artist-tagline" class="artist-tagline"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="artist-content" class="section-container">
+            <div class="artist-content-layout">
+                <div class="artist-bio">
+                    <h2>Biografía</h2>
+                    <p id="artist-bio-text"></p>
+                </div>
+
+                <div class="artist-right-column">
+                    <div class="artist-channels">
+                        <h2>Canales y Plataformas</h2>
+                        <ul id="artist-channels-list">
+                        </ul>
+                    </div>
+
+                    <div class="artist-music">
+                        <h2>Música Destacada</h2>
+                        <div id="featured-music-grid" class="video-grid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/fabrica/app.js"></script>
+    <script src="/fabrica/artistas-db.js"></script>
+    <script src="/fabrica/videos.js"></script>
+    <script src="/fabrica/perfil-artista.js"></script>
+</body>
+
+</html>

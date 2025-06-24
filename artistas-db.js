@@ -4,13 +4,13 @@ const laFabricaArtistas = [
     {
         nombre: 'MLS',
         imagen: '/images/artistas/mylab.webp',
-        url: '/fabrica/artistas/mls/',
+        url: '/artistas/mls/',
         descripcion: 'Explora el universo sonoro de MLS, un viaje musical único en La Fábrica.'
     },
     {
         nombre: 'AndyCrow',
         imagen: '/images/artistas/andy.webp',
-        url: '/fabrica/artistas/andycrow/',
+        url: '/artistas/andycrow/',
         tagline: 'Su enfoque es la música romántica, con un toque clásico.',
         descripcion: 'Explora el universo sonoro de AndyCrow, un viaje musical retro lleno de sentimientos.',
 
@@ -39,68 +39,68 @@ const laFabricaArtistas = [
     {
         nombre: 'CARONTE',
         imagen: '/images/artistas/Caronte.webp',
-        url: '/fabrica/artistas/caronte/',
+        url: '/artistas/caronte/',
         descripcion: 'Descubre la música y el estilo inconfundible de CARONTE en La Fábrica de Música.'
     },
     {
         nombre: 'COMET',
         imagen: '/images/artistas/Comet.webp',
-        url: '/fabrica/artistas/comet/',
+        url: '/artistas/comet/',
         descripcion: 'La propuesta musical de COMET te espera. Explora sus creaciones en La Fábrica.'
     },
     {
         nombre: 'JUANINI',
         imagen: '/images/artistas/Juanini.webp',
-        url: '/fabrica/artistas/juanini/',
+        url: '/artistas/juanini/',
         descripcion: 'Descubre la música y el estilo inconfundible de JUANINI en La Fábrica de Música.'
     },
 
     {
-        nombre: 'Nadador Compulsivo',
+        nombre: 'NADADOR COMPULSIVO',
         imagen: '/images/artistas/Nadador.webp',
-        url: '/fabrica/artistas/nadador-compulsivo/',
+        url: '/artistas/nadador-compulsivo/',
         descripcion: 'La propuesta musical de Nadador Compulsivo te espera. Explora sus creaciones.'
     },
     {
         nombre: 'PURASANGRE',
         imagen: '/images/artistas/purasangre.webp',
-        url: '/fabrica/artistas/purasangre/',
+        url: '/artistas/purasangre/',
         descripcion: 'Descubre la música y el estilo inconfundible de PURASANGRE en La Fábrica de Música.'
     },
     {
-        nombre: 'RUDOLPH AKB',
+        nombre: 'RUDOLPH',
         imagen: '/images/artistas/Rudolph.webp',
-        url: '/fabrica/artistas/rudolph-akb/',
+        url: '/artistas/rudolph/',
         descripcion: 'Explora el universo sonoro de RUDOLPH AKB, un viaje musical único en La Fábrica.'
     },
     {
         nombre: 'Tammy',
         imagen: '/images/artistas/Tammy.webp',
-        url: '/fabrica/artistas/tammy/',
+        url: '/artistas/tammy/',
         descripcion: 'La propuesta musical de Tammy te espera. Explora sus creaciones en La Fábrica.'
     },
     {
         nombre: 'Txema Albert',
         imagen: '/images/artistas/txema.webp', // ¡OJO! Renombré el archivo
-        url: '/fabrica/artistas/txema-albert/',
+        url: '/artistas/txema-albert/',
         descripcion: 'Descubre la música y el estilo inconfundible de Txema Albert en La Fábrica.'
     },
     {
         nombre: 'The ZÁRISTER',
         imagen: '/images/artistas/zarister.webp',
-        url: '/fabrica/artistas/the-zarister/',
+        url: '/artistas/the-zarister/',
         descripcion: 'Explora el universo sonoro de The ZÁRISTER, un viaje musical único en La Fábrica.'
     },
     {
         nombre: 'BALTO',
         imagen: '/images/artistas/balta.jpg',
-        url: '/fabrica/artistas/the-zarister/',
+        url: '/artistas/balto/',
         descripcion: 'Explora el universo sonoro de The ZÁRISTER, un viaje musical único en La Fábrica.'
     },
     {
         nombre: 'CALLE ARMONÍA 13',
         imagen: '/images/artistas/calle-armonia.jpg',
-        url: '/fabrica/artistas/the-zarister/',
+        url: '/artistas/calle-13/',
         descripcion: 'Explora el universo sonoro de The ZÁRISTER, un viaje musical único en La Fábrica.'
     }
 ];

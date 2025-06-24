@@ -163,7 +163,7 @@ const laFabricaEventos = [
         "genero": "Rbn Soul Y Jazz",
         "estado": "finalizado",
         "ganador": {
-            "nombre": "RUDOLPH AKB",
+            "nombre": "RUDOLPH",
             "cancion": "YA NO SOY TU SOMBRA",
             "videoId": "qdpRwwE8nRc"
         },

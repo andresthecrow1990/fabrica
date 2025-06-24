@@ -610,7 +610,7 @@ const laFabricaVideos = [
         id: 'svDpKm5Qtlo',
         categoria: 'Salsa',
         titulo: 'Pretty Woman',
-        artista: 'Nadador Compulsivo'
+        artista: 'NADADOR COMPULSIVO'
     },
     {
         id: 'DK3_oGY4gVA',

@@ -1055,3 +1055,93 @@ img {
     padding-bottom: 15px; 
 }
     }
+
+
+    /* --- ESTILOS PARA PÁGINA "QUIÉNES SOMOS" --- */
+
+.about-hero-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about-layout {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+/* Para alternar la imagen de lado */
+.about-layout.reverse {
+    flex-direction: row-reverse;
+}
+
+.about-image-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image-content img {
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.about-text-content {
+    flex: 1.5; /* Damos un poco más de espacio al texto */
+    min-width: 300px;
+}
+
+.about-text-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-text-content p {
+    color: var(--color-text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+.about-text-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-text-content li {
+    color: var(--color-text-secondary);
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.about-text-content li::before {
+    content: '\f00c'; /* Icono de check de Font Awesome */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    color: var(--color-primary);
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.cta-final-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-final-section h2 {
+    font-size: 2.5rem;
+}
+
+.cta-final-section p {
+    color: var(--color-text-secondary);
+    margin: 1.5rem 0 2.5rem 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-layout.reverse {
+        flex-direction: row; /* Volvemos a la normalidad en móvil */
+    }
+}

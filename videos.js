@@ -51,7 +51,7 @@ const laFabricaVideos = [
         id: 'Zdpjo9GwGw8',
         categoria: 'Ranchera',
         titulo: 'CHULA DE MIS AMORES',
-        artista: 'No especificado'
+        artista: 'Picardia Musical'
     },
     {
         id: 'bixtpvh91yQ',
@@ -69,13 +69,13 @@ const laFabricaVideos = [
         id: 'zDlZ9i8aKDE',
         categoria: 'Ranchera',
         titulo: 'Mil Gracias, Mamá',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: '-hi1KBMeh40',
         categoria: 'Ranchera',
         titulo: 'LA CUCARACHA (Estilo Vicente Fernández)',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'Bbhoa2CCBf0',
@@ -99,7 +99,7 @@ const laFabricaVideos = [
         id: 'vyb98UOM0XQ',
         categoria: 'Fechas Especiales',
         titulo: 'Gracias Papá',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'ySBWW2s-Anc',
@@ -117,7 +117,7 @@ const laFabricaVideos = [
         id: 'mWxS25bYemQ',
         categoria: 'Ranchera',
         titulo: 'Santa Lupita (Tributo a Chente Fernández)',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'znaGErTDpmI',
@@ -141,7 +141,7 @@ const laFabricaVideos = [
         id: 'nm8TCw0EH4k',
         categoria: 'Ranchera',
         titulo: 'BANDIDO BUENO (Tributo a Vicente Fernández)',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'qrDwhOlb1WE',
@@ -153,13 +153,13 @@ const laFabricaVideos = [
         id: 'pmCS9xvrtZE',
         categoria: 'Ranchera',
         titulo: 'Solo Tú y Nadie Más',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'tPunq15hoZM',
         categoria: 'Bolero',
         titulo: 'Por Ti Papá',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'UisRN5vgugs',
@@ -171,7 +171,7 @@ const laFabricaVideos = [
         id: 'ByAWIfKcqxY',
         categoria: 'Salsa',
         titulo: 'Madre de Mi Corazón',
-        artista: 'No especificado'
+        artista: 'Calle Armonía 13'
     },
     {
         id: 'qDcpQmNOnCw',
@@ -189,13 +189,13 @@ const laFabricaVideos = [
         id: 'cTxE09iuIZ0',
         categoria: 'Bolero',
         titulo: 'Mi Mundo (Estilo Luis Miguel)',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'l0WeDgGSLbM',
         categoria: 'Bolero',
         titulo: 'Contrato Roto',
-        artista: 'No especificado'
+        artista: 'Caronte'
     },
     {
         id: 'NHqnnIBrR4o',
@@ -207,13 +207,13 @@ const laFabricaVideos = [
         id: 'lFXFrZAiNqY',
         categoria: 'Fechas Especiales',
         titulo: 'HÉROES SILENCIOSOS',
-        artista: 'No especificado'
+        artista: 'Balto'
     },
     {
         id: 'OFs2t0bdgVo',
         categoria: 'Fechas Especiales',
         titulo: '"Merci Maman"',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'c4aIp65klk8',
@@ -231,13 +231,13 @@ const laFabricaVideos = [
         id: 'eUm4Hy-a8sM',
         categoria: 'Salsa',
         titulo: '"Rosa ""La Manguera"""',
-        artista: 'No especificado'
+        artista: 'Picardía Musical'
     },
     {
         id: 'Eo7bKPlvOhw',
         categoria: 'Fechas Especiales',
         titulo: 'VIEJO (Himno para el Jefe)',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: '3p1ODh6gxuQ',
@@ -273,7 +273,7 @@ const laFabricaVideos = [
         id: 'WpdaQtkA8MU',
         categoria: 'Rock',
         titulo: 'PUNK ROCK 2025',
-        artista: 'No especificado'
+        artista: 'varios artistas'
     },
     {
         id: '3zoIb_4bvwc',
@@ -291,7 +291,7 @@ const laFabricaVideos = [
         id: '8df-HElFHOo',
         categoria: 'Flamenco',
         titulo: 'Para Mamá',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'Nli97K69JD4',
@@ -321,7 +321,7 @@ const laFabricaVideos = [
         id: '4xpHXfC_C9A',
         categoria: 'Ranchera',
         titulo: 'ADIOS PAPA FRANCISCO',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: '1d3nCfERt3s',
@@ -333,7 +333,7 @@ const laFabricaVideos = [
         id: 'goTC7V2KhK4',
         categoria: 'Rock',
         titulo: '¡Feminismo! - Una Crítica constructiva',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'CvG5zyQgNx0',
@@ -351,7 +351,7 @@ const laFabricaVideos = [
         id: 'sOEDBnGxevc',
         categoria: 'Ranchera',
         titulo: 'Canción Cumpleaños Feliz',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: '4ACEM2ALBww',
@@ -472,7 +472,7 @@ const laFabricaVideos = [
         id: '0yJ5pEnYIQM',
         categoria: 'Flamenco',
         titulo: 'Sigue el Ritmo (Estilo Rosalía)',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'jt0Z3ZjkL4Y',
@@ -490,7 +490,7 @@ const laFabricaVideos = [
         id: 'FeHDmu3dEUg',
         categoria: 'Blues',
         titulo: 'The King (Tributo a B.B. King)',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'gl0HkVliPhI',
@@ -508,7 +508,7 @@ const laFabricaVideos = [
         id: 'MgTm8SKJQGU',
         categoria: 'Swing',
         titulo: 'Ballerina Capuccina',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'aQncZxxxS8s',
@@ -646,7 +646,7 @@ const laFabricaVideos = [
         id: 'NOo3HfzL-e0',
         categoria: 'Ranchera',
         titulo: 'Las Bellezas de Jalisco',
-        artista: 'No especificado'
+        artista: 'Balto'
     },
     {
         id: 'WkOoUBPXh_4',
@@ -959,7 +959,7 @@ const laFabricaVideos = [
         id: 'htXsl2A8wOA',
         categoria: 'Rock',
         titulo: 'Por favor y gracias - Llego el Apocalipsis Robot',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'y8qv82If2u0',
@@ -1031,7 +1031,7 @@ const laFabricaVideos = [
         id: '5QHOin0JbJ4',
         categoria: 'Ranchera',
         titulo: 'Aquiles Baeza - Música, Albures y Muerte',
-        artista: 'No especificado'
+        artista: 'Picardía Musical'
     },
     {
         id: 'ZBAjkCG6EKw',
@@ -1261,7 +1261,7 @@ const laFabricaVideos = [
         id: 'iUmt51yiOj4',
         categoria: 'Flamenco',
         titulo: 'En Tu Nombre',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'vlLBwhX7Rlw',
@@ -1280,7 +1280,7 @@ const laFabricaVideos = [
         id: '7OocDJwSk_o',
         categoria: 'Rock',
         titulo: 'Cartagena',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: '9SuLFkaEdpA',
@@ -1292,13 +1292,13 @@ const laFabricaVideos = [
         id: '9vwLGCAcYLw',
         categoria: 'Ranchera',
         titulo: 'Bendiciones – Homenaje a Ternura68',
-        artista: 'No especificado'
+        artista: 'juanini'
     },
     {
         id: 'B6LZcPyIA54',
         categoria: 'Fechas Especiales',
         titulo: 'Quejío de Campana',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'NvtO_uBZY40',
@@ -1340,7 +1340,7 @@ const laFabricaVideos = [
         id: 'og4fsP_hjqw',
         categoria: 'Reggae',
         titulo: 'En Tu Mirada',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'xYHTJgwPd24',
@@ -1358,7 +1358,7 @@ const laFabricaVideos = [
         id: '9bIeIHsHxgM',
         categoria: 'Funk',
         titulo: 'Soy un Influencer (PARODIA)',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'Do7bX3frNbE',
@@ -1413,7 +1413,7 @@ const laFabricaVideos = [
         id: 'yiUgLx0DEmE',
         categoria: 'Soul',
         titulo: 'Última Bala',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: '0ZNvx8VD0sc',
@@ -1425,7 +1425,7 @@ const laFabricaVideos = [
         id: '8vgv8Ht7x9I',
         categoria: 'Rap',
         titulo: 'Fabricando Vida',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'AYa8JyaE1L0',
@@ -1443,7 +1443,7 @@ const laFabricaVideos = [
         id: 'Es-IRgToC90',
         categoria: 'Soul',
         titulo: 'Fade to Blue',
-        artista: 'No especificado'
+        artista: 'Caronte'
     },
     {
         id: 'GKh51k7IKiY',
@@ -1491,19 +1491,19 @@ const laFabricaVideos = [
         id: 'qdpRwwE8nRc',
         categoria: 'Soul',
         titulo: 'YA NO SOY TU SOMBRA',
-        artista: 'No especificado'
+        artista: 'Rudolph'
     },
     {
         id: 'xaEJ7jKxaSI',
         categoria: 'Rap',
         titulo: 'Mundo Hipócrita',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: '-6WLaLXOclw',
         categoria: 'Blues',
         titulo: 'EL BLUES DE LA ESCALERA',
-        artista: 'No especificado'
+        artista: 'Txema Albert'
     },
     {
         id: '01LXWm_0Qmw',
@@ -1539,7 +1539,7 @@ const laFabricaVideos = [
         id: 'B9W6HcLzQdM',
         categoria: 'Country',
         titulo: 'Una Chica Sin Control',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'Dp5AFpD0Om8',
@@ -1563,7 +1563,7 @@ const laFabricaVideos = [
         id: 'QSQDWkPg6jM',
         categoria: 'Country',
         titulo: '"Llévame a Casa, Carretera a Dentro"',
-        artista: 'No especificado'
+        artista: 'The Zárister'
     },
     {
         id: 'QxR5004HP28',
@@ -1635,7 +1635,7 @@ const laFabricaVideos = [
         id: 'lMcEIZW3lfM',
         categoria: 'Soul',
         titulo: 'Besos Limón',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'oeHto97SCLw',
@@ -1659,7 +1659,7 @@ const laFabricaVideos = [
         id: 'sasAOwGFFYw',
         categoria: 'Fechas Especiales',
         titulo: 'SEMANA SANTA 2025 - Música Nueva',
-        artista: 'No especificado'
+        artista: 'varios artistas'
     },
     {
         id: '-L5sKswZFIw',
@@ -1677,7 +1677,7 @@ const laFabricaVideos = [
         id: '4NoBG2qHH40',
         categoria: 'Rock',
         titulo: 'Brokeback Beach',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: '5yh0ZZJWtY8',
@@ -1701,7 +1701,7 @@ const laFabricaVideos = [
         id: 'Ggrn7lPvnTM',
         categoria: 'Rock',
         titulo: '"Cuando Tú Mueras (Estilo Frankie Lymon)"',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'H1IbPl9DnuU',
@@ -1731,7 +1731,7 @@ const laFabricaVideos = [
         id: 'Ry65pQsPXKs',
         categoria: 'Country',
         titulo: 'Houston 2 Step Rodeo Nights',
-        artista: 'No especificado'
+        artista: 'Balto'
     },
     {
         id: 'ScMNJORdFWI',
@@ -1755,7 +1755,7 @@ const laFabricaVideos = [
         id: 'gOn9VSgJyTs',
         categoria: 'Soul',
         titulo: 'DIME QUE ME QUIERES (Estilo Alicia Keys)',
-        artista: 'No especificado'
+        artista: 'AndyCrow'
     },
     {
         id: 'lwX3wCoRndc',
@@ -1767,7 +1767,7 @@ const laFabricaVideos = [
         id: 'nsr6wm9y44M',
         categoria: 'Reggae',
         titulo: 'Banana Mystery',
-        artista: 'No especificado'
+        artista: 'MLS'
     },
     {
         id: 'pKzk6XzRy78',

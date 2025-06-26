@@ -110,7 +110,7 @@ if (artistData.cancionDestacadaId && heroVideoContainer) {
             loadMoreContainer.appendChild(loadMoreBtn);
         }
     } else {
-        musicGrid.innerHTML = '<p>Este artista aún no tiene música destacada.</p>';
+        musicGrid.innerHTML = '<p>Este artista aún no tiene música destacada en la fábrica.</p>';
     }
 
     // Activar la reproducción de video (sin cambios)

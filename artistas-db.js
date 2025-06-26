@@ -52,7 +52,7 @@ const laFabricaArtistas = [
     },
     {
         nombre: 'Caronte',
-        imagen: '/images/artistas/caronte.webp', // NOTA: Reemplazar con la ruta real de la imagen.
+        imagen: '/images/artistas/Caronte.webp', // NOTA: Reemplazar con la ruta real de la imagen.
         url: '/artistas/caronte/',
         tagline: 'Dios creó al Hombre... el Hombre creó la música... Dios se olvidó del hombre.',
         descripcion: 'El Barquero Silba la melodía...',
